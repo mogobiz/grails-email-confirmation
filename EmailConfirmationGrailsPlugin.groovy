@@ -17,9 +17,9 @@ import grails.util.Environment
 
 
 class EmailConfirmationGrailsPlugin {
-	def version = "3.0.0"
+	def version = "1.0.1-SNAPSHOT"
 
-    def grailsVersion = "2.4 > *"
+    def grailsVersion = "2.5 > *"
 
     def loadAfter = ['logging']
 

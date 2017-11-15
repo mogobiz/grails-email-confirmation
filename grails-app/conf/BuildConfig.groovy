@@ -49,8 +49,8 @@ grails.project.dependency.resolution = {
 
         build ":tomcat:7.0.54"
 
-        build(":release:3.0.1",
-              ":rest-client-builder:1.0.3") {
+        build(":release:3.1.2",
+              ":rest-client-builder:2.1.1") {
             export = false
         }
 
@@ -58,6 +58,6 @@ grails.project.dependency.resolution = {
 	    compile(':platform-core:1.0.0')
         compile(':mail:1.0.7')
 
-        runtime ":hibernate4:4.3.5.5"
+        runtime ":hibernate:3.6.10.15" //":hibernate4:4.3.5.5"
     }
 }

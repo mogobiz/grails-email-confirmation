@@ -4,3 +4,4 @@ plugins
 .gradle
 build
 buildPlugins
+*.zip

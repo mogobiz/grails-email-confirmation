@@ -2,3 +2,5 @@ target
 plugins
 *.iml
 .gradle
+build
+buildPlugins
